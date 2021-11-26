@@ -616,10 +616,10 @@ contract GZLR is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
-    address payable public marketingAddress = payable(0xa670C0246a23C483E6e73de9c00823C47323514A); // Marketing Address
+    address payable public marketingAddress = payable(0x47dDf575789f6d2044401c949d2Ce9FC1C7233fF); // Marketing Address
 
     address payable public liquidityAddress =
-        payable(0x000000000000000000000000000000000000dEaD); // Liquidity Address
+        payable(0x59B5eD384Cbfb691dEE3D20Bd38750b60eE814ea); // Liquidity Address
 
     mapping(address => uint256) private _rOwned;
     mapping(address => uint256) private _tOwned;
